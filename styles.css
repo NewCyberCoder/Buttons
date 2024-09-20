@@ -1,0 +1,68 @@
+body {
+    background-color: aliceblue;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 30px;
+}
+.button-1:hover {
+    background-color:bisque;
+}
+.button-2 {
+    width: 200px;
+    height: 200px;
+    background-color:coral;
+    border-radius: 15px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 40px;
+    margin: 30px;
+}
+.button-2:hover {
+    background-color:brown;
+}
+.button-3 {
+    width: 200px;
+    height: 200px;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 30px;
+}
+.button-3:hover {
+    background-color: darkseagreen;
+}
+.button-4 {
+    font-size: 40px;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    border-bottom: 200px solid darkturquoise;
+    border-top: 0px solid transparent;
+    position: relative;
+}
+.button-4:hover {
+    border-bottom-color:blue;
+}
+.words {
+    position: absolute;
+}
